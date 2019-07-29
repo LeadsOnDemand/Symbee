@@ -33,14 +33,30 @@ The purpose of this repository is to house and documentation, configuraiton and 
 
 #### Inbound
 1. [ ] Setup direct dial for all agents.
-2. [ ] Setup inbound phone numbers
+2. [ ] Setup inbound dispositions.
+    - Booked
+    - Company Too Small
+    - No Campaigns Available
+    - No Influence
+    - No Longer at Company
+    - No Upcoming Projects
+    - Rescheduled
+    - Unqualified
+    - Customer Service
+    - More Information
+    - Follow Up
+3. [ ] Setup inbound phone numbers
     - www.itbr.com website number.
     - 15 additional numbers used for outbound marketing asking to call in.
     - Call in strategy for routing is:
         - If inbound call is from a contact and the contact is owned by an Agen route to agent.
         - If inbound call is not owned by and agent, then ring all available phones (if ring all is not available round robin).
         - if inbound call is from a lead or unknown, then reing all available pones (if ring all is not available round robin).
-3. [ ] Setup Screen pop strategy.
+4. [ ] Setup Screen pop strategy.
     - If inbound number is associated with a contact, then screen pop the contact.
     - If inbound number is associated with a lead, then screen pop the lead.
     - if inbound number is associaged with an account, then screen pop the account.
+
+### Phase 2.
+1. [ ] Web enable associate phone numbers in order to text with contacts.
+2. [ ] Setup webchat on www.itbr.com. Symbee to provide documentation.
