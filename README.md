@@ -57,6 +57,13 @@ The purpose of this repository is to house and documentation, configuraiton and 
     - If inbound number is associated with a lead, then screen pop the lead.
     - if inbound number is associaged with an account, then screen pop the account.
 
+#### Features
+1. [ ] Recored all calls
+2. [ ] Transcribe all calls
+3. [ ] Enable click to dial
+    - Most call center solutions allow click to dial on Contact/Lead/Account. Does Symbee allow click to dial from any phone field? If yes, do we have the ability to associate that call however we sith via lambda?
+4. [ ] Build custom reports and/or views that allow us to call through.
+
 ### Phase 2.
 1. [ ] Web enable associate phone numbers in order to text with contacts.
 2. [ ] Setup webchat on www.itbr.com. Symbee to provide documentation.
