@@ -76,4 +76,4 @@ The purpose of this repository is to house and documentation, configuraiton and 
 4. When using click to dial do I have access to the context of that click? Example what custom object was used when dialed.
 
 ## TODO (LOD)
-Build lightning component to visualize transcription.
+1. Build lightning component to visualize transcription.
