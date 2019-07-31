@@ -74,3 +74,6 @@ The purpose of this repository is to house and documentation, configuraiton and 
 2. Can an agent vew call recordings form the dialer? Not today feature was requested and accepted. Link to record from record go to recording
 3. Can we restrict an agent to see all calls, but only listen to their calls, with the exception of team leads and managers? You can listen to all recordings or none. This feature has been requested.
 4. When using click to dial do I have access to the context of that click? Example what custom object was used when dialed.
+
+## TODO (LOD)
+Build lightning component to visualize transcription.
