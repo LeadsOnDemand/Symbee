@@ -50,8 +50,8 @@ The purpose of this repository is to house and documentation, configuraiton and 
     - 15 additional numbers used for outbound marketing asking to call in.
     - Call in strategy for routing is:
         - If inbound call is from a contact and the contact is owned by an Agen route to agent.
-        - If inbound call is not owned by and agent, then ring all available phones (if ring all is not available round robin).
-        - if inbound call is from a lead or unknown, then reing all available pones (if ring all is not available round robin).
+        - If inbound call is not owned by and agent, then ring all available phones (if ring all is not available round robin) Note: ring all is not available.
+        - if inbound call is from a lead or unknown, then reing all available pones (if ring all is not available round robin) Note: ring all is not available.
 4. [ ] Setup Screen pop strategy.
     - If inbound number is associated with a contact, then screen pop the contact.
     - If inbound number is associated with a lead, then screen pop the lead.
