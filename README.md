@@ -67,3 +67,9 @@ The purpose of this repository is to house and documentation, configuraiton and 
 ### Phase 2.
 1. [ ] Web enable associate phone numbers in order to text with contacts.
 2. [ ] Setup webchat on www.itbr.com. Symbee to provide documentation.
+
+
+## General Questions
+1. Can an agent see there call history from the dialer?
+2. Can an agent vew call recordings form the dialer?
+3. Can we restrict an agent to see all calls, but only listen to their calls, with the exception of team leads and managers?
