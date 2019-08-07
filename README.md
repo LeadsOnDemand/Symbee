@@ -61,8 +61,9 @@ The purpose of this repository is to house and documentation, configuraiton and 
 1. [ ] Recored all calls
 2. [ ] Transcribe all calls
 3. [ ] Enable click to dial
-    - Most call center solutions allow click to dial on Contact/Lead/Account. Does Symbee allow click to dial from any phone field? If yes, do we have the ability to associate that call however we sith via lambda?
+    - Most call center solutions allow click to dial on Contact/Lead/Account. Does Symbee allow click to dial from any phone field? If yes, do we have the ability to associate the "what" with the object that was clicked?
 4. [ ] Build custom reports and/or views that allow us to call through.
+5. [ ] With click to dial, when i click on a phone number in any field. Example some custom field  
 
 ### Phase 2.
 1. [ ] Web enable associate phone numbers in order to text with contacts.
@@ -73,7 +74,15 @@ The purpose of this repository is to house and documentation, configuraiton and 
 1. Can an agent see there call history from the dialer? Yes
 2. Can an agent vew call recordings form the dialer? Not today feature was requested and accepted. Link to record from record go to recording
 3. Can we restrict an agent to see all calls, but only listen to their calls, with the exception of team leads and managers? You can listen to all recordings or none. This feature has been requested.
-4. When using click to dial do I have access to the context of that click? Example what custom object was used when dialed.
+4. When using click to dial do I have access to the context of that click? Example, when I click to dial on a custom object I want the "What Id" of the task to be set to the object that was clicked on and I do not want the screen to pop to the associated Lead or Contact.
+
+### What do we want to do with unmatched, missed or both calls?
+**Note** : Since we are using salesforce as the IDP when a taks is created the Owner of that task should be the Agent when we know the agent that accepted or missed that call. If not we can leave the owner field black and let the default owner be set.
+#### Unmatched
+1. Create the call task with all the information as usuall.
+2. Create a second task for the agent to remind him to associate the call "what Id" will reference the call.
+#### Missed
+1. Create a task for the call and associate the agent if we know who it was going to and associate the prospect/contact.
 
 ## TODO (LOD)
 1. Build lightning component to visualize transcription.
