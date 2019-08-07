@@ -77,7 +77,7 @@ The purpose of this repository is to house and documentation, configuraiton and 
 4. When using click to dial do I have access to the context of that click? Example, when I click to dial on a custom object I want the "What Id" of the task to be set to the object that was clicked on and I do not want the screen to pop to the associated Lead or Contact.
 
 ### What do we want to do with unmatched, missed or both calls?
-**Note** : Since we are using salesforce as the IDP when a taks is created the Owner of that task should be the Agent when we know the agent that accepted or missed that call. If not we can leave the owner field black and let the default owner be set.
+**Note** : Since we are using salesforce as the IDP when a taks is created the Owner of that task should be the Agent when we know the agent that accepted or missed that call. If not we can leave the owner field black and let salesforce set the default owner.
 #### Unmatched
 1. Create the call task with all the information as usuall.
 2. Create a second task for the agent to remind him to associate the call "what Id" will reference the call.
