@@ -87,7 +87,7 @@ The purpose of this repository is to house and documentation, configuraiton and 
 ## TODO (LOD)
 1. Build lightning component to visualize transcription.
 
-## Phone Number Fields
+## Phone Number Fields (In order of priority)
 ### Contact
 - Phone
 - MobilePhone
